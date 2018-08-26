@@ -1,0 +1,26 @@
+{
+  "name": "note-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon -exec 'npm test'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  },
+  "devDependencies": {
+    "expect": "^23.4.0",
+    "install": "^0.12.1",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "npm": "^6.3.0"
+  }
+}
